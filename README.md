@@ -16,4 +16,9 @@ road to python
 
   no se puede iniciar el nombre de una variable con:  numeros ni incluir palabras reservadas
   python identifica espacios vacios
-  
+
+
+  -- Leccion 03
+ Operador
+  = "Asignacion"
+   
