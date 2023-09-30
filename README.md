@@ -15,4 +15,5 @@ road to python
   --Leccion 02
 
   no se puede iniciar el nombre de una variable con:  numeros ni incluir palabras reservadas
+  python identifica espacios vacios
   
