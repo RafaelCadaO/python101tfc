@@ -106,6 +106,38 @@ print(isinstance(best_price, int))
 
 
 #float type
+gpa = 3.28
+y  = float(1.28)
+print (type(gpa))
+print (type(y))
+
+# complex type
+
+comp_vale =  3+5j
+print (type(comp_vale))
+print (comp_vale.real)
+print (comp_vale.imag)
+
+#build in functions 
+
+print(abs(gpa))
+print(abs(gpa*-1))
+print(round(gpa))
+print(round(gpa, 1))
+
+import math
+print (math.pi)
+print (math.sqrt(64))
+print (math.ceil(gpa))
+print (math.floor(gpa))
 
 
+#casting
 
+zipcode = "123456"
+zip_value = int(zipcode)
+print(type(zip_value))
+
+#cast error
+
+#zip_value = int ("New York")
