@@ -9,6 +9,7 @@ print(type(first))
 print(type(first) ==str)
 print(isinstance(first, str))
 
+
 #constructor 
 pizza = str("Pepperoni")
 print(type(pizza))
