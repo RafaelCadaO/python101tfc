@@ -21,6 +21,13 @@ road to python
   -- Leccion 03
  Operador
   = "Asignacion"
+  + - / * son aritmeticos
+// division redondeada
+% remainder
+** to the power of
++ concatenate simbols
+
+
    
 
 --DOCKER
