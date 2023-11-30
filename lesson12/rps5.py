@@ -87,6 +87,5 @@ def rps():
             sys.exit("Byeee!")
 
     return play_rps
-
 play = rps()
 play ()
