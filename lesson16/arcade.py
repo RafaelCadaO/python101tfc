@@ -1,3 +1,5 @@
+#Arcade
+
 import sys
 import rps
 import guessnumber
@@ -32,3 +34,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Provides a personalized game experience")
     parser.add_argument('-n','--name',metavar='name',required=True,help='The name of the person playing the game.')
+
+    args = parser.parse_args()
+
+    gameplayer = play_game(args.name)
+    gameplayer()
