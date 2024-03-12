@@ -63,7 +63,7 @@ def gn(name='PlayerOne'):
         print (f"\nGame count:  {game_count}")
         print (f"\n{name}'s wins: {player_wins}")
         print (f"\nPython wins: {pyhton_wins}")
-        print (f"\nAccuracy: {Accuracy}")
+        print (f"\nAccuracy: {Accuracy}%")
         
 
 
