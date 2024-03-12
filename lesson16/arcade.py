@@ -5,10 +5,11 @@ import rps
 import guessnumber
 
 def play_game(name='PlayerOne'):
+    """function tu play games"""
     welcome_back = False
 
     while True:
-        if welcome_back == True:
+        if welcome_back is True:
             print(f"\n{name}, welcome back to de Arcade menu.")
 
             playerchoice = input("\nPlase chose a game: \n1 = Rock Papers Scissors. \n2 = Guess my Number. \nx to exit the Arcade.")
@@ -16,9 +17,7 @@ def play_game(name='PlayerOne'):
             if playerchoice not in ["1","2","x"]:
                 print(f"{name}, please enter 1, 2 or x.")
                 return play_game(name)
-            
             welcome_back = True
-
             if playerchoice == "1":
                 rpsgame = rps.rps(name)
                 rpsgame()
