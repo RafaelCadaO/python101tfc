@@ -1,25 +1,17 @@
-#rock paper scissors
-
 import sys
 import random
-from enum import Enum
 
 
 def gn(name='PlayerOne'):
     game_count  = 0
     player_wins = 0
     pyhton_wins = 0
-    Accuracy = 0
+    accuracy = 0
 
     def play_gn():
         nonlocal name
         nonlocal player_wins
         nonlocal pyhton_wins
-
-        class RPS(Enum):
-            One = 1
-            Two = 2
-            Three = 3
 
 
         print("")
@@ -49,21 +41,20 @@ def gn(name='PlayerOne'):
                 return f"{name} wins!!"
             else:
                 pyhton_wins += 1
-                return f"🐍 Python wins! \nSorry, {name}...😢"  
+                return f"🐍 Python wins! \nSorry, {name}...😢"
             
         game_result = decide_winner(player, computer)
 
-        print (game_result)
-        
-        nonlocal game_count 
+        print (game_result) 
+        nonlocal game_count
+        nonlocal accuracy
         game_count +=1
-        nonlocal Accuracy
-        Accuracy = player_wins/game_count
+        accuracy = player_wins/game_count
 
         print (f"\nGame count:  {game_count}")
         print (f"\n{name}'s wins: {player_wins}")
         print (f"\nPython wins: {pyhton_wins}")
-        print (f"\nAccuracy: {Accuracy}%")
+        print (f"\nAccuracy: {accuracy}%")
         
 
 
